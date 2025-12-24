@@ -19,7 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/shala-connect">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
